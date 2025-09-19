@@ -1,8 +1,39 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  background-color: #f0f0f0;
 }
 
-h1 {
-  color: #00698f;
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+}
+
+.card h1, .card h2 {
+  margin-top: 0;
+}
+
+button {
+  background-color: #00698f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004c66;
 }
